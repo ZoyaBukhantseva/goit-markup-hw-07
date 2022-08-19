@@ -1,16 +1,5 @@
 
-.tittle,
-.clients-tittle {
-    margin-bottom: 50px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
-}
+
 
 .about {
     padding-top: 94px;
@@ -36,8 +25,8 @@
     height: 70px;
     bottom: 0;
     display: flex;
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: var(--font-weight-acent);
+    font-size: var(--font-size-base);
     line-height: 16px;
     align-items: center;
     justify-content: center;

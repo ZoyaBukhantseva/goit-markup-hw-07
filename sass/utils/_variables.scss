@@ -7,8 +7,10 @@
     --bgr-color: #E5E5E5;
     --bgr-second-color: #F5F4FA;
 
-}
-body {
-    font-family: "Roboto", sans-serif;
-    background-color: #fff;
+    --font-logo: Raleway;
+    --font-main: "Roboto",sans-serif;
+    --font-size-base: 14px;
+    --font-size-secondary:16px;
+    --font-weight-acent:700;
+    --font-weight-secondary:500;
 }

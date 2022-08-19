@@ -71,7 +71,7 @@
 
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
+    font-weight: var(--font-weight-acent);
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
@@ -153,7 +153,7 @@ textarea::placeholder {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     letter-spacing: 0.06em;
-    font-weight: 700;
+    font-weight: var(--font-weight-acent);
     font-size: 16px;
     line-height: 1.88;
     border: transparent;

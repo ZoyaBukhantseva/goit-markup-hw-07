@@ -52,7 +52,7 @@
     p {
             font-style: normal;
             font-weight: 400;
-            font-size: 16px;
+            font-size:var(--font-size-secondary);
             line-height: 1.88;
             letter-spacing: 0.03em;
             color: var(--second-text-color)
@@ -61,7 +61,7 @@
     margin-bottom: 4px;
 
     font-style: normal;
-    font-weight: 700;
+    font-weight: var(--font-weight-acent);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;

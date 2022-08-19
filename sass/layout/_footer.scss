@@ -3,30 +3,24 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
-.footer-logo {
+.footer__contacts {
+    margin-right: 70px;
+}
+.footer__logo {
     display: block;
     margin-bottom: 20px;
-
-    color: var(--acent-color);
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 
-.footer-item>a {
+.footer__item>a {
     font-style: normal;
-    font-size: 14px;
+    font-size: var(--font-size-base);
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-list {
+.footer__list {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,&:focus {
         color: var(--acent-color);
@@ -34,7 +28,7 @@
 }
 
 
-.footer-item:nth-child(n+2) {
+.footer__item:nth-child(n+2) {
     margin-top: 9px;
 }
 
@@ -42,7 +36,7 @@ a[href=" https://goo.gl/maps/LfRihioMRKPNniMt5"] {
     color: var(--text-buttom-color);
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: var(--font-size-base);
     line-height: 1.71;
     letter-spacing: 0.03em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -52,13 +46,13 @@ a[href=" https://goo.gl/maps/LfRihioMRKPNniMt5"] {
 }
 
 
-.footer-soc {
+.footer__soc {
     display: flex;
     justify-content: start;
     gap: 10px;
 }
 
-.footer-soc-link {
+.social__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -73,27 +67,29 @@ a[href=" https://goo.gl/maps/LfRihioMRKPNniMt5"] {
         }
 }
 
-.footer-icon {
+.social__icon--light {
     fill: #FFFFFF;
 }
 
 .footer-label {
     margin-bottom: 20px;
     width: 100%;
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: var(--font-weight-acent);
+    font-size: var(--font-size-base);
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
     color: #FFFFFF;
 }
-
-.footer-input {
+.footer__input{
+ margin-right: 12px;
+}
+.form__input {
     width: 358px;
     height: 50px;
     padding: 15px 16px;
-    margin-right: 12px;
+   
     background-color: #2F303A;
     ;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -110,22 +106,24 @@ a[href=" https://goo.gl/maps/LfRihioMRKPNniMt5"] {
        font-family: 'Roboto';
        font-style: normal;
        font-weight: 400;
-       font-size: 16px;
+       font-size: var(--font-size-secondary);
        line-height: 1.25;
        letter-spacing: 0.03em;
        color: rgba(255, 255, 255, 0.6);
    }
 }
 
-.footer-form {
+.footer__form {
     display: flex;
     width: 100%;
 }
 
-.footer-button {
+.footer__button {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;}
+
+.form__button{
     width: 200px;
     height: 50px;
     color: #FFFFFF;
@@ -135,13 +133,13 @@ a[href=" https://goo.gl/maps/LfRihioMRKPNniMt5"] {
     border-radius: 4px;
     cursor: pointer;
     font-weight: 700;
-    font-size: 16px;
+    font-size: var(--font-size-secondary);
     line-height: 1.88;
 
     letter-spacing: 0.06em;
 }
 
-.btn-icon {
+.btn__icon {
     margin-left: 10px;
 }
 
@@ -149,8 +147,8 @@ a[href=" https://goo.gl/maps/LfRihioMRKPNniMt5"] {
     margin-right: 93px;
     >h3 {
             font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
+            font-weight: var(--font-weight-acent);
+            font-size: var(--font-size-base);
             line-height: 1.14;
             letter-spacing: 0.03em;
             text-transform: uppercase;

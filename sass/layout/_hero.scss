@@ -35,8 +35,8 @@
 
     border: transparent;
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: var(--font-weight-acent);
+    font-size: var(--font-size-secondary);
     line-height: 1.88;
     color: var(--text-buttom-color);
     text-align: center;

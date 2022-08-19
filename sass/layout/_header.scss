@@ -1,16 +1,18 @@
 .logo {
     color: var(--acent-color);
-    font-family: Raleway;
+    font-family: var(--font-logo);
     font-style: normal;
-    font-weight: 700;
+    font-weight: var(--font-weight-acent);
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 
-    display: inline-block;
-    padding-top: 24px;
-    padding-bottom: 25px;
-
+   
+}
+.header__logo{
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header {
@@ -41,8 +43,8 @@
     padding-bottom: 32px;
 
     color: var(--main-text-color);
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: var(--font-weight-secondary);
+    font-size: var(--font-size-base);
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -87,8 +89,8 @@
     align-items: center;
 
     color: var(--second-text-color);
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: var(--font-weight-secondary);
+    font-size: var(--font-size-base);
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -103,10 +105,3 @@
     margin-right: 10px;
 }
 
-.container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
